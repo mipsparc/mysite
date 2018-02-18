@@ -44,6 +44,14 @@ var map_style =
         },
         {
             "featureType": "road",
+            "stylers": [
+            {
+                "visibility": "off"
+            }
+            ]
+        },
+        {
+            "featureType": "road",
             "elementType": "labels",
             "stylers": [
             {
@@ -54,40 +62,6 @@ var map_style =
         {
             "featureType": "road",
             "elementType": "labels.icon",
-            "stylers": [
-            {
-                "visibility": "off"
-            }
-            ]
-        },
-        {
-            "featureType": "road.arterial",
-            "stylers": [
-            {
-                "visibility": "off"
-            }
-            ]
-        },
-        {
-            "featureType": "road.highway",
-            "elementType": "labels",
-            "stylers": [
-            {
-                "visibility": "off"
-            }
-            ]
-        },
-        {
-            "featureType": "road.local",
-            "stylers": [
-            {
-                "visibility": "off"
-            }
-            ]
-        },
-        {
-            "featureType": "water",
-            "elementType": "labels.text",
             "stylers": [
             {
                 "visibility": "off"
